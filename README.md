@@ -1,23 +1,26 @@
-Questo script utilizza la libreria pynput per ascoltare gli eventi del mouse, stampando su console la posizione del cursore ogni volta che viene effettuato un click sinistro.
-🔧 Requisiti
+Questo script utilizza la libreria `pynput` per ascoltare gli eventi del mouse,
+stampando la posizione del cursore ogni volta che viene effettuato un click sinistro.
 
-    Python 3.x
+Requisiti
+---------
+- Python 3.x
+- Libreria `pynput` (installabile con: pip install pynput)
 
-    pynput
-    Puoi installarla con:
+Utilizzo
+--------
+1. Salva il codice in un file, ad esempio: listener.py
+2. Esegui il file da terminale con:
 
-pip install pynput
+   python listener.py
 
-▶️ Utilizzo
+3. Il programma inizierà ad ascoltare i click sinistri del mouse.
+   Ogni volta che clicchi con il tasto sinistro, verrà stampata la posizione del cursore.
 
-Esegui lo script da terminale:
+4. Per uscire, premi CTRL+C nel terminale.
 
-python nome_script.py
-
-Una volta avviato, lo script:
-
-    Rimane in ascolto dei click del mouse
-
-    Stampa le coordinate (x, y) ad ogni click sinistro
-
-    Può essere interrotto con CTRL+C
+Nota
+----
+Utile per:
+- Tracciare i click dell'utente
+- Automatizzare azioni
+- Fare debug di interazioni col mouse
